@@ -222,5 +222,19 @@
       "photographer": "Jeffry Surianto",
       "url": "https://www.pexels.com/photo/people-extinguishing-fire-18340568/"
     }
+  },
+  "control-room": {
+    "alt": "Operator watching a wall of monitors in a dim control room",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwBACdASoYABAAPu1qrU8ppiQiMAgBMB2JZwDGfCF5+FZeiO/3m0D3eEAA/uybvkWBGp3D8TvzXuPGjtdXh3MxfrhgMgO9r2An181ya1w6bRvfpi9PgAAA",
+    "credit": {
+      "photographer": "AMORIE SAM",
+      "url": "https://www.pexels.com/photo/security-officer-in-dark-control-room-with-monitors-30692441/"
+    }
   }
 }
