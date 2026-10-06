@@ -124,5 +124,19 @@
       "photographer": "Safi Erneste",
       "url": "https://www.pexels.com/photo/worker-operating-shaking-table-in-industrial-setup-35082130/"
     }
+  },
+  "plant-walk": {
+    "alt": "Two workers in coveralls and hard hats walking through an industrial plant",
+    "width": 2400,
+    "height": 2400,
+    "widths": {
+      "800": 800,
+      "1600": 1100
+    },
+    "placeholder": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACQBQCdASoYABgAPu1qrlCppaQiqAqpMB2JaACdMuN7KBTE+riYVbWOMP10L3ZrsPL59jaEAAD+ll/DsVeSPg40fHFMAMLEucYzhDpfwkX15wEycb2RnAkwAQCKvtbykd8KHKMHDrsEuMBm3sLKk56YNt+AVPKa3g3FBM5hO2bGQwpiS+Wv5f6fgnMZe8P9xa8KQWoTAwIf46SSAAA=",
+    "credit": {
+      "photographer": "Annyles Ortiz",
+      "url": "https://www.pexels.com/photo/industrial-workers-in-safety-gear-at-construction-site-37090943/"
+    }
   }
 }
