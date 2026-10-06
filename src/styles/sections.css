@@ -418,3 +418,62 @@
 .page-hero-copy .eyebrow {
   display: flex;
 }
+
+/* ---------- CTA band (navy) ---------- */
+.cta-band {
+  position: relative;
+  border-radius: 26px;
+  overflow: hidden;
+  isolation: isolate;
+  padding: 76px 60px;
+  background: var(--navy);
+  box-shadow: var(--shadow-lg);
+}
+.cta-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.cta-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, rgba(1, 32, 63, 0.97) 0%, rgba(1, 32, 63, 0.9) 48%, rgba(1, 32, 63, 0.55) 100%);
+}
+.cta-band::after {
+  /* yellow corner flash */
+  content: "";
+  position: absolute;
+  right: -60px;
+  top: -60px;
+  width: 180px;
+  height: 180px;
+  border-radius: 40px;
+  background: var(--yellow);
+  transform: rotate(18deg);
+  z-index: -1;
+  opacity: 0.95;
+}
+.cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.cta-band h2 {
+  font-family: var(--font-head);
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  line-height: 1.2;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+  max-width: 620px;
+}
+.cta-band p {
+  max-width: 520px;
+}
+.cta-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
