@@ -142,6 +142,27 @@ export const siteTypes = [
   },
 ];
 
+export const visibilityFeatures = [
+  {
+    icon: MapPin,
+    tone: "yellow",
+    title: "Live Worker Tracking",
+    text: "Real-time GPS and RFID monitoring of personnel entering and exiting mining pits.",
+  },
+  {
+    icon: BarChart3,
+    tone: "navy",
+    title: "Safety Analytics",
+    text: "Dashboards showing safety metrics, incident reports and compliance performance.",
+  },
+  {
+    icon: ShieldCheck,
+    tone: "yellow",
+    title: "Automated Check-in / Out",
+    text: "Seamless entry and exit tracking with instant alerts when anything looks out of the ordinary.",
+  },
+];
+
 export const testimonials = {
   home: [
     {
