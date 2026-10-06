@@ -921,3 +921,16 @@ a.topbar-item:hover {
 .to-top:hover {
   background: var(--navy-700);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  [data-reveal] {
+    opacity: 1;
+    translate: none;
+  }
+}
