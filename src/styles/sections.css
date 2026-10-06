@@ -309,3 +309,36 @@
   background: rgba(248, 113, 113, 0.16);
   color: var(--red-bright);
 }
+/* On the white hero chip, use darker status colours */
+.hero-chip .f-ic.in {
+  background: #dcfce7;
+  color: var(--green);
+}
+.hero-chip .f-ic.out {
+  background: var(--yellow-100);
+  color: var(--navy);
+}
+.hero-chip .f-ic.alert {
+  background: #fee2e2;
+  color: var(--red);
+}
+.f-main {
+  flex: 1;
+  min-width: 0;
+}
+.f-name {
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+.f-sub {
+  font-size: 0.72rem;
+  color: var(--on-dark-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.f-time {
+  font-size: 0.7rem;
+  color: var(--on-dark-muted);
+  white-space: nowrap;
+}
