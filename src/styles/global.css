@@ -186,3 +186,64 @@ main:focus {
 .on-dark .eyebrow::before {
   background: var(--accent-on-dark);
 }
+
+/* ---------- Layout ---------- */
+.container {
+  width: min(var(--maxw), calc(100% - 2 * var(--gutter)));
+  margin-inline: auto;
+}
+
+.section {
+  padding: 104px 0;
+  position: relative;
+}
+.section.tight {
+  padding: 72px 0;
+}
+.section.flush-top {
+  padding-top: 8px;
+}
+.section.alt {
+  background: var(--bg-alt);
+  border-block: 1px solid var(--border);
+}
+
+.grid {
+  display: grid;
+  gap: 26px;
+}
+.cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: center;
+}
+.split p {
+  margin-bottom: 14px;
+}
+/* Let grid items shrink below their content's min width (e.g. the dashboard on small phones) */
+.grid > *,
+.split > *,
+.hero-wrap > *,
+.page-hero-grid > *,
+.contact-grid > *,
+.faq-wrap > * {
+  min-width: 0;
+}
+
+.center {
+  text-align: center;
+}
+.mt {
+  margin-top: 14px;
+}
