@@ -250,5 +250,19 @@
       "photographer": "Jakub Zerdzicki",
       "url": "https://www.pexels.com/photo/businessman-analyzing-data-on-digital-tablet-37685036/"
     }
+  },
+  "card-reader": {
+    "alt": "Hand tapping an access card on a wall-mounted card reader",
+    "width": 2400,
+    "height": 1602,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoYABAAPu1orU6ppiSiMAgBMB2JZQAAW+y75RoDaWsSi8IAAP7estwuKq2NnfJCMifMjs9a2iNZINOlqGpLZkCAAAA=",
+    "credit": {
+      "photographer": "Susanne Plank",
+      "url": "https://www.pexels.com/photo/man-hand-holding-access-card-over-reader-13657444/"
+    }
   }
 }
