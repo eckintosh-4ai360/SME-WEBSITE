@@ -163,6 +163,13 @@ export const visibilityFeatures = [
   },
 ];
 
+export const values = [
+  { icon: ShieldCheck, tone: "yellow", title: "Safety First", text: "Unwavering commitment to the highest safety standards in every operation." },
+  { icon: Lock, tone: "yellow", title: "Integrity", text: "Transparent, honest and ethical practices in all our operations." },
+  { icon: Star, tone: "navy", title: "Excellence", text: "Delivering exceptional quality and results that exceed expectations." },
+  { icon: Lightbulb, tone: "navy", title: "Innovation", text: "Cutting-edge technology for real-time monitoring and analytics." },
+];
+
 export const testimonials = {
   home: [
     {
