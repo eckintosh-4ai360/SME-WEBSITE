@@ -343,6 +343,67 @@
   white-space: nowrap;
 }
 
+/* ---------- Testimonials ---------- */
+.quote-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: var(--shadow-sm);
+  transition:
+    var(--t-reveal),
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.quote-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+.quote-mark {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  background: var(--yellow);
+  color: var(--navy);
+}
+.quote-mark svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+.quote-text {
+  color: var(--text);
+  font-size: 1.02rem;
+  line-height: 1.7;
+  flex: 1;
+}
+.quote-who {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+.quote-who b {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--navy);
+}
+.quote-who div > span {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.stars {
+  color: var(--accent-text);
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
 /* ---------- Page hero (inner pages) ---------- */
 .page-hero {
   position: relative;
