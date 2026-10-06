@@ -39,3 +39,17 @@ _legacy/           ← the previous static HTML site, kept for reference — saf
 **Most edits only touch `src/data/`.** For example, to change the phone number everywhere, edit `phone`
 and `phoneDisplay` in `src/data/site.js`. To show social icons in the footer, paste your profile URLs
 into `socials` in the same file.
+
+## Brand
+
+- **Colours:** navy `#01203F` and yellow `#FFD302`, taken from the SME Consult logo. They're defined once, at the
+  top of `src/styles/global.css` (`--navy`, `--yellow`). The design is light-first: white and light-grey pages,
+  with navy for the top bar, stats, call-to-action panels and footer.
+- **Typography:** navy headings with muted blue (`#285B83`) emphasis, soft blue badges and pale blue
+  (`#A9CEE8`) text accents on navy. Shared `--accent-*` tokens keep this consistent across pages.
+  Yellow is reserved for brand details, buttons and icons.
+- **Logo:** `src/assets/brand/logo-mark.png` (the shield, transparent background) is used in the header.
+  `logo-mark-outline.png` (white edge, so the navy shield shows on navy) is used in the footer.
+  `public/logo.png` is the full logo with the wordmark. The favicon, app icon and social-share image
+  (`public/og-image.jpg`) are all made from it.
+- **Fonts:** Montserrat for headings (matching the logo's wordmark) and Inter for body text.
