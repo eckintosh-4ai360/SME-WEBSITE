@@ -278,5 +278,19 @@
       "photographer": "Gonzalo Carlos Novillo Lapeyra",
       "url": "https://www.pexels.com/photo/security-gates-on-an-airport-12608612/"
     }
+  },
+  "site-audit": {
+    "alt": "Inspector in hard hat and hi-vis vest reviewing a clipboard on site",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQBACdASoYABAAPu1mqk4ppaOiMAgBMB2JYgCxJUAAyGrU6QqAPmL69yoAAP7hb6uc9unnJ3V6hq6zdq2EPnPSjS9M4L8J32GF5MDwTOhT2FQrxgsdPyrLjsFQnxubm2lOup40AAA=",
+    "credit": {
+      "photographer": "Mikael Blomkvist",
+      "url": "https://www.pexels.com/photo/woman-wearing-safety-helmet-holding-a-whiteboard-8960942/"
+    }
   }
 }
