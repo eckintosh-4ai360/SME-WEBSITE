@@ -546,6 +546,60 @@
   margin: 0;
 }
 
+/* ---------- Site tiles ---------- */
+.site-tile {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius);
+  overflow: hidden;
+  isolation: isolate;
+  box-shadow: var(--shadow-sm);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+.site-tile img {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  transition: transform 0.7s ease;
+}
+.site-tile::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(1, 32, 63, 0) 30%, rgba(1, 32, 63, 0.94) 80%);
+}
+.site-tile:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow);
+}
+.site-tile:hover img {
+  transform: scale(1.06);
+}
+.site-tile-body {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 28px;
+  display: grid;
+  gap: 8px;
+  color: var(--on-dark-muted);
+}
+.site-tile-body b {
+  font-family: var(--font-head);
+  font-size: 1.35rem;
+  color: #fff;
+}
+.site-tile-body > span:first-of-type {
+  font-size: 0.92rem;
+  min-height: calc(1.65em * 3);
+}
+.site-tile .link-more {
+  color: #fff;
+}
+
 /* ---------- Testimonials ---------- */
 .quote-card {
   background: #fff;

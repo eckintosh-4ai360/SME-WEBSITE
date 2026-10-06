@@ -124,6 +124,24 @@ export const solutions = [
   },
 ];
 
+export const siteTypes = [
+  {
+    photo: "open-pit-aerial",
+    title: "Open-pit mines",
+    text: "Gate readers on every haul road and pit access point, with shift headcounts at the push of a button.",
+  },
+  {
+    photo: "tunnel-walk",
+    title: "Underground mines",
+    text: "Portal and level check-points that show exactly who is below ground — and where — at all times.",
+  },
+  {
+    photo: "ore-processing",
+    title: "Processing plants",
+    text: "Controlled access to plant areas, contractor tracking and audit-ready attendance records.",
+  },
+];
+
 export const testimonials = {
   home: [
     {
