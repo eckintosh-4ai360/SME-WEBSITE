@@ -109,6 +109,21 @@ export const services = [
   },
 ];
 
+// Home — the four headline solutions (subset of services, different photos)
+export const solutions = [
+  { ...services[0], photo: "turnstiles" },
+  { ...services[1], photo: "tablet-engineer" },
+  { ...services[2], photo: "analytics-tablet" },
+  {
+    id: null, // no dedicated section on the Services page — links to the page itself
+    icon: Users,
+    tone: "yellow",
+    photo: "crew-lineup",
+    title: "Worker Management",
+    summary: "Full oversight of personnel records, certifications and compliance from one place.",
+  },
+];
+
 export const testimonials = {
   home: [
     {
