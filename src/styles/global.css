@@ -1,0 +1,60 @@
+/* ============================================================
+   SME CONSULT — tokens, base, layout and shared components
+   Brand: navy #01203F + yellow #FFD302, light-first.
+   Typography uses navy and muted blue, with pale blue on dark surfaces.
+   Yellow is reserved for brand details, buttons and icons.
+   ============================================================ */
+
+:root {
+  /* Brand */
+  --navy: #01203f;
+  --navy-800: #06294f;
+  --navy-700: #0d3563;
+  --navy-600: #1a4677;
+  --yellow: #ffd302;
+  --yellow-600: #f0c300;
+  --yellow-200: #ffeb8a;
+  --yellow-100: #fff5c2;
+  --yellow-50: #fffbe8;
+
+  /* Light surfaces */
+  --bg: #ffffff;
+  --bg-alt: #f4f6fa;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+
+  /* Text */
+  --ink: #01203f; /* headings */
+  --text: #334155; /* body */
+  --muted: #56657a; /* secondary — 5.6:1 on white */
+  --accent-text: #285b83;
+  --accent-on-dark: #a9cee8;
+  --accent-soft: #eaf2f8;
+  --accent-border: #cbddea;
+
+  /* On navy */
+  --on-dark: #ffffff;
+  --on-dark-muted: #b9c6d8;
+  --on-dark-border: rgba(255, 255, 255, 0.14);
+
+  /* Status */
+  --green: #15803d;
+  --green-bright: #4ade80;
+  --red: #dc2626;
+  --red-bright: #f87171;
+
+  --radius: 18px;
+  --radius-sm: 12px;
+  --shadow-sm: 0 1px 2px rgba(1, 32, 63, 0.06), 0 4px 14px rgba(1, 32, 63, 0.05);
+  --shadow: 0 18px 44px rgba(1, 32, 63, 0.12);
+  --shadow-lg: 0 30px 70px rgba(1, 32, 63, 0.2);
+  --font-head: "Montserrat", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+  --maxw: 1200px;
+  --topbar-h: 38px;
+  --nav-h: 78px;
+  --header-h: calc(var(--topbar-h) + var(--nav-h));
+  --gutter: max(16px, 4vw);
+  color-scheme: light;
+}
