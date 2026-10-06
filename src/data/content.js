@@ -170,6 +170,25 @@ export const process = [
   { title: "Support", text: "Ongoing monitoring and continuous improvement of your systems." },
 ];
 
+export const faqs = [
+  {
+    q: "How does real-time worker monitoring work?",
+    a: "Every worker carries an RFID badge that is scanned at each pit gate. Our system logs each entry and exit instantly, updating a live dashboard with who is on site, where, and for how long. Unusual activity — such as a missed exit — triggers immediate alerts to your safety team.",
+  },
+  {
+    q: "What analytics do you provide?",
+    a: "Our dashboard covers safety metrics, incident reports, compliance data and trend analysis. You get shift summaries, attendance patterns, certification status and audit-ready reports — all in one place, accessible from any device.",
+  },
+  {
+    q: "How quickly can you implement the system?",
+    a: "Most sites are fully operational within two to four weeks. After an initial consultation and site assessment, we install hardware, configure the dashboard and train your team. Smaller deployments can often go live even faster.",
+  },
+  {
+    q: "Is the system compliant with mining regulations?",
+    a: "Yes. Our compliance audit service reviews your operation against applicable mining safety regulations, documents everything, identifies gaps and supports you through inspections — with ongoing monitoring to keep you compliant.",
+  },
+];
+
 export const values = [
   { icon: ShieldCheck, tone: "yellow", title: "Safety First", text: "Unwavering commitment to the highest safety standards in every operation." },
   { icon: Lock, tone: "yellow", title: "Integrity", text: "Transparent, honest and ethical practices in all our operations." },
