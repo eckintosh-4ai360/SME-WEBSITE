@@ -733,6 +733,45 @@ a.topbar-item:hover {
   color: var(--accent-on-dark);
 }
 
+/* ---------- Stat strip (navy) ---------- */
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--navy);
+  box-shadow: var(--shadow);
+}
+.stat-cell {
+  padding: 30px 22px;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+.stat-cell + .stat-cell::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 24%;
+  bottom: 24%;
+  width: 1px;
+  background: var(--on-dark-border);
+}
+.stat-num {
+  font-family: var(--font-head);
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--accent-on-dark);
+  letter-spacing: -0.02em;
+}
+.stat-label {
+  color: var(--on-dark-muted);
+  font-size: 0.88rem;
+  margin-top: 4px;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--navy);
