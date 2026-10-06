@@ -390,5 +390,19 @@
       "photographer": "aboodi vesakaran",
       "url": "https://www.pexels.com/photo/workers-walking-on-pavement-17396054/"
     }
+  },
+  "cpr-training": {
+    "alt": "Hands practising CPR on a training mannequin with a defibrillator pad",
+    "width": 2400,
+    "height": 3600,
+    "widths": {
+      "800": 533,
+      "1600": 733
+    },
+    "placeholder": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAAAQBQCdASoYACQAPtVWok2oJKMiNUwBABqJZQC0NCuHWnWb0+LWBo6IjdX9yumXsOgwAP1JcCvLBtttmiNk+rptCZ/+3bSJDNJBZYcT/BR1VWyoweOfJLy1dvpAudncknBMQKP5ajkqefAyDqK2wFBSuEWWW8S45rUPCKfUmliPAAAA",
+    "credit": {
+      "photographer": "Raven Domingo",
+      "url": "https://www.pexels.com/photo/hands-of-person-doing-cpr-on-training-dummy-11655091/"
+    }
   }
 }
