@@ -15,6 +15,13 @@ import {
   Users,
 } from "lucide-react";
 
+export const stats = [
+  { value: 3, suffix: "+", label: "Projects Completed" },
+  { value: 5, suffix: "+", label: "Years of Experience" },
+  { value: 10000, suffix: "+", label: "Workers Monitored" },
+  { value: 99.9, decimals: 1, suffix: "%", label: "Safety Record" },
+];
+
 export const services = [
   {
     id: "safe-entry-exit",
