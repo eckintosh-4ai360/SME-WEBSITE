@@ -1581,3 +1581,33 @@
 .credits .lead a {
   font-size: inherit;
 }
+
+/* ---------- 404 ---------- */
+.not-found {
+  position: relative;
+  isolation: isolate;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: calc(var(--header-h) + 40px) 0 80px;
+}
+.not-found-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.not-found-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(1, 32, 63, 0.82);
+}
+.not-found .lead {
+  margin-inline: auto;
+  color: var(--on-dark-muted);
+}
+.not-found-inner .hero-actions {
+  justify-content: center;
+  margin-top: 30px;
+}
