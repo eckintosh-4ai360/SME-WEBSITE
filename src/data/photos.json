@@ -54,5 +54,19 @@
       "photographer": "Connor Kelley",
       "url": "https://www.pexels.com/photo/woman-wearing-hard-hat-inside-a-tunnel-5089723/"
     }
+  },
+  "open-pit-truck": {
+    "alt": "Haul truck driving along the bench of an open-pit mine",
+    "width": 2400,
+    "height": 1607,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoYABAAPu1orU2ppqSiMAgBMB2JQBdgBA/eMW105CqdnEnAAP5kCFvn5+luDw8Dp7HLN6DZPATXZPT+/oBw/qZhq0x7f9xVAAA=",
+    "credit": {
+      "photographer": "Gansham Ramchandani",
+      "url": "https://www.pexels.com/photo/a-construction-truck-in-a-barren-landscape-5125104/"
+    }
   }
 }
