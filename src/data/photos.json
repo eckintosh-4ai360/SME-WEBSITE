@@ -26,5 +26,19 @@
       "photographer": "Alejandro De Roa",
       "url": "https://www.pexels.com/photo/two-people-in-a-tunnel-27660060/"
     }
+  },
+  "underground-engineer": {
+    "alt": "Engineer in hi-vis vest and helmet standing in a lit underground mine drive",
+    "width": 2400,
+    "height": 2429,
+    "widths": {
+      "800": 791,
+      "1600": 1087
+    },
+    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBQCdASoYABgAPu1oq0+ppiOiMBgIATAdiWUAzcAMSbcby5d5gDlM80DRbr1gp0GAAP54b8c/AvVN7vnXcK2lJ0/ngoPC5JRxrzg/9NJ5z7jTHsCY5wu7q2bYDuQWbF38wmXeBOvXmHlJ3ZHZuCQA",
+    "credit": {
+      "photographer": "Manuel Garcia",
+      "url": "https://www.pexels.com/photo/engineer-in-a-modern-underground-mine-tunnel-32594486/"
+    }
   }
 }
