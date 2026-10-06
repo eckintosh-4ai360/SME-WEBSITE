@@ -68,5 +68,19 @@
       "photographer": "Gansham Ramchandani",
       "url": "https://www.pexels.com/photo/a-construction-truck-in-a-barren-landscape-5125104/"
     }
+  },
+  "open-pit-aerial": {
+    "alt": "Aerial view of a large terraced open-pit mine",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQBACdASoYABAAPu1krU2ppaSiMAgBMB2JYwC7ACKUe6W+OuLlH+UKOECAAPfeMTgl1Ekb7FVJbdGSesBQqrbLNoV0VljdezS1Rzs3RBEaZ+mUXn+yuAAA",
+    "credit": {
+      "photographer": "Vlad Chețan",
+      "url": "https://www.pexels.com/photo/mining-excavation-on-a-mountain-2892618/"
+    }
   }
 }
