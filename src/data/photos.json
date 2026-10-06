@@ -152,5 +152,19 @@
       "photographer": "Mukhtar Shuaib Mukhtar",
       "url": "https://www.pexels.com/photo/joyful-construction-workers-on-a-construction-site-38706752/"
     }
+  },
+  "crew-lineup": {
+    "alt": "Row of workers in hi-vis vests and helmets lined up for a headcount",
+    "width": 2400,
+    "height": 1916,
+    "widths": {
+      "800": 800,
+      "1600": 1378
+    },
+    "placeholder": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADQBACdASoYABMAPu1oqk4ppiOiMAgBMB2JQBadBDkXTppJ8VxGu2ekbhvhM6fTjAD+5x1qMjE7LHHHwqwkYtWZuvNtqgxK4YlSGa6l47AuCJnpw+mwvx9EYROgafQhcsR1wWfpUgEYe+hnp8I+sn2ruLTwbDiAAAA=",
+    "credit": {
+      "photographer": "Harrun Muhammad",
+      "url": "https://www.pexels.com/photo/construction-workers-in-safety-gear-at-building-site-32467382/"
+    }
   }
 }
