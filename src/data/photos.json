@@ -96,5 +96,19 @@
       "photographer": "Volker Braun",
       "url": "https://www.pexels.com/photo/aerial-view-of-large-open-pit-mining-operation-34042228/"
     }
+  },
+  "rail-crew": {
+    "alt": "Mine crew in safety gear walking past a locomotive at the mine entrance",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoYABAAPu1kq04ppaQiMAgBMB2JagC7AGYVbViy96NqP7JVCoAA/vincvFQopJkxtZWpo7wEYyl7/KskuWAuOrLcOrHSBKnGdyeMuAjGopOxo7p4+uJEAgqS3WYJ5P/fm3XDOmfH7Y0gMLAAAA=",
+    "credit": {
+      "photographer": "Safi Erneste",
+      "url": "https://www.pexels.com/photo/mining-site-with-workers-and-rail-transport-35082155/"
+    }
   }
 }
