@@ -197,6 +197,30 @@ main:focus {
   background-position: center;
 }
 
+/* ---------- Reveal on scroll ----------
+   Reveal animates `translate`, hover effects animate `transform`, so they never fight.
+   Components with their own transitions include var(--t-reveal) in their list. */
+[data-reveal] {
+  /* Declared here (not on :root) so var(--rd) resolves per element */
+  --t-reveal: opacity 0.7s ease var(--rd, 0s), translate 0.7s ease var(--rd, 0s);
+  opacity: 0;
+  translate: 0 28px;
+  transition: var(--t-reveal);
+}
+[data-reveal][data-revealed] {
+  opacity: 1;
+  translate: none;
+}
+[data-reveal="1"] {
+  --rd: 0.1s;
+}
+[data-reveal="2"] {
+  --rd: 0.2s;
+}
+[data-reveal="3"] {
+  --rd: 0.3s;
+}
+
 /* ---------- Layout ---------- */
 .container {
   width: min(var(--maxw), calc(100% - 2 * var(--gutter)));
