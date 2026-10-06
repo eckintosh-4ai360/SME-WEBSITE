@@ -12,5 +12,19 @@
       "photographer": "Safi Erneste",
       "url": "https://www.pexels.com/photo/entrance-to-trinity-mining-tunnel-22-with-rail-cars-35082153/"
     }
+  },
+  "tunnel-light": {
+    "alt": "Two workers silhouetted as they walk out of a tunnel towards daylight",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoYABAALrV2u12jqampiYC0SygABc8AJ0P6JdaKM/jgAP73fC1fyZ+5Zc5Vq5w8vWqWtCaGBfHMpQptUAA=",
+    "credit": {
+      "photographer": "Alejandro De Roa",
+      "url": "https://www.pexels.com/photo/two-people-in-a-tunnel-27660060/"
+    }
   }
 }
