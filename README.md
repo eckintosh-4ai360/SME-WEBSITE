@@ -72,3 +72,17 @@ Use a new key to add an extra photo, then reference it from `src/data/gallery.js
 The alt text is read aloud by screen readers — describe what's in the picture.
 
 Team members and testimonials use initials avatars. Please only add headshots of the real people named.
+
+## Contact form
+
+By default, **Send Message** opens the visitor's email app with their message pre-filled to
+`smeconsultgh@gmail.com`, and **Send via WhatsApp** opens a WhatsApp chat with the same text.
+
+To receive messages directly instead (works even when visitors have no email app set up), create a free
+form endpoint — e.g. at [Formspree](https://formspree.io) — then copy `.env.example` to `.env` and set:
+
+```
+VITE_CONTACT_ENDPOINT=https://formspree.io/f/your-form-id
+```
+
+Rebuild after changing it.
