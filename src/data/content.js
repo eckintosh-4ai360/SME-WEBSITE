@@ -225,6 +225,30 @@ export const team = [
   { initials: "EA", name: "Efua Amoah", role: "Compliance Lead", text: "Ensures every deployment meets mining regulations and audit requirements.", tone: "navy" },
 ];
 
+export const clients = [
+  {
+    photo: "open-pit-truck",
+    title: "Open-Pit Gold Operation",
+    location: "Western Region, Ghana",
+    tags: ["Safe Entry & Exit", "Real-Time Monitoring"],
+    text: "Full RFID check-in across four pit gates with live dashboard access for the safety team.",
+  },
+  {
+    photo: "underground-engineer",
+    title: "Underground Mine",
+    location: "Ashanti Region, Ghana",
+    tags: ["Worker Analytics", "Compliance Audits"],
+    text: "Shift-level accountability with automated alerts and monthly compliance reporting.",
+  },
+  {
+    photo: "plant-walk",
+    title: "Processing Plant Site",
+    location: "Tarkwa, Ghana",
+    tags: ["Safety Training", "24/7 Support"],
+    text: "Workforce training, entry protocols and round-the-clock emergency support.",
+  },
+];
+
 export const testimonials = {
   home: [
     {
