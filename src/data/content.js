@@ -170,6 +170,27 @@ export const values = [
   { icon: Lightbulb, tone: "navy", title: "Innovation", text: "Cutting-edge technology for real-time monitoring and analytics." },
 ];
 
+export const missionVision = [
+  {
+    icon: Target,
+    tone: "yellow",
+    title: "Our Mission",
+    text: [
+      "To provide world-class safe entry and exit solutions for mining pits, powered by real-time worker monitoring and comprehensive analytics.",
+      "We are committed to protecting lives while enabling operational excellence through cutting-edge technology.",
+    ],
+  },
+  {
+    icon: Eye,
+    tone: "navy",
+    title: "Our Vision",
+    text: [
+      "To be the global leader in mining workforce safety, setting industry standards with innovative real-time monitoring solutions.",
+      "Complete visibility of every worker entering and exiting mining operations — everywhere we operate.",
+    ],
+  },
+];
+
 export const testimonials = {
   home: [
     {
