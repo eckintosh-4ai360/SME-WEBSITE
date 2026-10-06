@@ -334,5 +334,19 @@
       "photographer": "Pavel Danilyuk",
       "url": "https://www.pexels.com/photo/yellow-protective-helmets-hanging-on-a-metal-rack-9065474/"
     }
+  },
+  "tablet-engineer": {
+    "alt": "Engineer in safety gear checking data on a tablet inside a large plant",
+    "width": 2400,
+    "height": 1597,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JZAC7ACFSoIuxyewpdDVudAggAP7r7inKfEZC74IiPamN+aX90bbrvzEI5ECny9TecW2kc1SS88U64AA=",
+    "credit": {
+      "photographer": "Sergey Sergeev",
+      "url": "https://www.pexels.com/photo/engineer-in-industrial-factory-using-tablet-32845694/"
+    }
   }
 }
