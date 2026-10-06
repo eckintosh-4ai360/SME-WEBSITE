@@ -163,3 +163,26 @@ main:focus {
 .skip-link:focus {
   top: 12px;
 }
+
+/* ---------- Navy sections ---------- */
+.on-dark {
+  color: var(--on-dark-muted);
+}
+.on-dark h1,
+.on-dark h2,
+.on-dark h3,
+.on-dark h4 {
+  color: var(--on-dark);
+}
+.on-dark :focus-visible {
+  outline-color: var(--accent-on-dark);
+}
+.on-dark .accent {
+  color: var(--accent-on-dark);
+}
+.on-dark .eyebrow {
+  color: var(--accent-on-dark);
+}
+.on-dark .eyebrow::before {
+  background: var(--accent-on-dark);
+}
