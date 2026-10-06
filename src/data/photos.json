@@ -292,5 +292,19 @@
       "photographer": "Mikael Blomkvist",
       "url": "https://www.pexels.com/photo/woman-wearing-safety-helmet-holding-a-whiteboard-8960942/"
     }
+  },
+  "audit-notes": {
+    "alt": "Engineer in safety helmet and vest writing notes on a clipboard",
+    "width": 2400,
+    "height": 1800,
+    "widths": {
+      "800": 800,
+      "1600": 1467
+    },
+    "placeholder": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAADQBACdASoYABIAPu1kqU2ppaOiMAgBMB2JZAC7ABjI0dkhFlylIBWqFrXWNNrBAAD+59VTjqGPXrk7fhz4Qf+WYAzyeUZDzw4QDI6Avkw505b+HtWjAq/a3xRu9pAslH04ETwvIvnMaXuExFPePxAa8I4GB/UykyIAAA==",
+    "credit": {
+      "photographer": "Kindel Media",
+      "url": "https://www.pexels.com/photo/woman-engineer-writing-down-on-paper-8488034/"
+    }
   }
 }
