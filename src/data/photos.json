@@ -320,5 +320,19 @@
       "photographer": "Anamul Rezwan",
       "url": "https://www.pexels.com/photo/man-wearing-white-hard-hat-holding-2-way-radio-1078879/"
     }
+  },
+  "helmet-rack": {
+    "alt": "Rows of yellow safety helmets hanging on a rack",
+    "width": 2400,
+    "height": 1602,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBACdASoYABAAPu1mqk4ppaOiMAgBMB2JaACdMoAB3BflF4ktehi3jIgA/un9e5kxpZFYFrVMxMcoMJKDpojprWSfex5l8NOF9F8ic7iVX8RJ0L7n7B7Fy1VTtudz/ELJtzoRKWz7+N5DqtNwYAAA",
+    "credit": {
+      "photographer": "Pavel Danilyuk",
+      "url": "https://www.pexels.com/photo/yellow-protective-helmets-hanging-on-a-metal-rack-9065474/"
+    }
   }
 }
