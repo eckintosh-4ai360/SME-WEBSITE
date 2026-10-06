@@ -82,5 +82,19 @@
       "photographer": "Vlad Chețan",
       "url": "https://www.pexels.com/photo/mining-excavation-on-a-mountain-2892618/"
     }
+  },
+  "open-pit-machinery": {
+    "alt": "Aerial view of heavy machinery working inside an open pit",
+    "width": 2400,
+    "height": 1800,
+    "widths": {
+      "800": 800,
+      "1600": 1467
+    },
+    "placeholder": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBQCdASoYABIAPu1srlKppaQiqAgBMB2JZAC7L6AA3mVxxx7S/Ji42lDPlusHdnUwAMsWhxgEIwSkkruGCX7meK9rrdnEFn15+xDlMJAz1GpirYdl37G5uhb0OjhqMoGE5EGHNNdafFs+pdo8P2tzhe2iXCbEvOAAAA==",
+    "credit": {
+      "photographer": "Volker Braun",
+      "url": "https://www.pexels.com/photo/aerial-view-of-large-open-pit-mining-operation-34042228/"
+    }
   }
 }
