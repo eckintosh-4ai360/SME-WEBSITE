@@ -362,5 +362,19 @@
       "photographer": "Sergey Sergeev",
       "url": "https://www.pexels.com/photo/industrial-engineers-collaborating-in-factory-32845690/"
     }
+  },
+  "hardhat-gloves": {
+    "alt": "Yellow hard hat and red work gloves ready for a shift",
+    "width": 2400,
+    "height": 1800,
+    "widths": {
+      "800": 800,
+      "1600": 1467
+    },
+    "placeholder": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBACdASoYABIAPu1kqU2ppaQiMAgBMB2JZgCsM0xCYnnXoWzfDfVOYDcAAP6e+UIALu87kcIqLF4hT13TP0lyOVbjOeWJAcajO8xGTryiu6hcgYcKDTsn889ZLXRI0uLIZFp0SK+w935Z3ni5ti5RCm9AAA==",
+    "credit": {
+      "photographer": "Kindel Media",
+      "url": "https://www.pexels.com/photo/close-up-photo-of-yellow-hardhat-and-red-protective-gloves-8488037/"
+    }
   }
 }
