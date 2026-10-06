@@ -376,5 +376,19 @@
       "photographer": "Kindel Media",
       "url": "https://www.pexels.com/photo/close-up-photo-of-yellow-hardhat-and-red-protective-gloves-8488037/"
     }
+  },
+  "crew-walking": {
+    "alt": "Group of workers in hi-vis vests and helmets walking to their shift",
+    "width": 2400,
+    "height": 2984,
+    "widths": {
+      "800": 643,
+      "1600": 885
+    },
+    "placeholder": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQBACdASoYAB4APulipE2pJaMiMAwBIB0JQAAG0HGTeMxOtLCN3LGG7iOmWQAA/b5xk38dD2OOnKunfJwVArvR5M/3EI6x6IJ3oMT7rgY9SrCrdBHYD5U2lIxb2QqvYOoKGQ/r1i6MVviqY10zVrGRNse371NmDMAAAA==",
+    "credit": {
+      "photographer": "aboodi vesakaran",
+      "url": "https://www.pexels.com/photo/workers-walking-on-pavement-17396054/"
+    }
   }
 }
