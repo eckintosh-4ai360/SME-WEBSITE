@@ -138,5 +138,19 @@
       "photographer": "Annyles Ortiz",
       "url": "https://www.pexels.com/photo/industrial-workers-in-safety-gear-at-construction-site-37090943/"
     }
+  },
+  "crew-smiling": {
+    "alt": "Smiling crew of workers in safety vests and hard hats",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAwCdASoYABAAPu1orU2ppqSiMAgBMB2JYgCdABkjnTVi7B2ruDwAAP7QvgOg4J2iog3l5575ucsVNOon8+5EcPOmH/gnpeEiZO64bbcY/AxVzIhGBbPNggh4grdVjAAAAA==",
+    "credit": {
+      "photographer": "Mukhtar Shuaib Mukhtar",
+      "url": "https://www.pexels.com/photo/joyful-construction-workers-on-a-construction-site-38706752/"
+    }
   }
 }
