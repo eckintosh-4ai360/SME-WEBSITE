@@ -348,5 +348,19 @@
       "photographer": "Sergey Sergeev",
       "url": "https://www.pexels.com/photo/engineer-in-industrial-factory-using-tablet-32845694/"
     }
+  },
+  "engineers-tablet": {
+    "alt": "Three engineers in helmets reviewing data together on a tablet",
+    "width": 2400,
+    "height": 1597,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQBACdASoYABAAPu1orU6ppiSiMAgBMB2JaACw7GlgNwAAo9PCsjCsAAD++dn/HGwTupNKYtpBjjodmJl1sseTOdvcCnEbtTV6VaKMHvKDXVltM1Z1dtiMYSEd+MHBPeoJAAAA",
+    "credit": {
+      "photographer": "Sergey Sergeev",
+      "url": "https://www.pexels.com/photo/industrial-engineers-collaborating-in-factory-32845690/"
+    }
   }
 }
