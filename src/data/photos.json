@@ -208,5 +208,19 @@
       "photographer": "Safi Erneste",
       "url": "https://www.pexels.com/photo/industrial-worker-in-safety-gear-at-factory-35082106/"
     }
+  },
+  "fire-drill": {
+    "alt": "Workers practising with a fire extinguisher during a fire safety drill",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoYABAAPu1kqk4ppaQiMAgBMB2JZAC06BKOhal1EhB8xAAA/P0HPyxFK4NgP2RBj4+wUmvsQ2VFFU41kxWyCb6YvWGn5A3DXjmLW5BswybfJpx4ZKB2Z8NAAAA=",
+    "credit": {
+      "photographer": "Jeffry Surianto",
+      "url": "https://www.pexels.com/photo/people-extinguishing-fire-18340568/"
+    }
   }
 }
