@@ -819,3 +819,124 @@
   gap: 14px;
   flex-wrap: wrap;
 }
+
+/* ---------- About ---------- */
+.provide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 24px;
+  margin-top: 28px;
+}
+.provide-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.provide-item h3 {
+  font-family: var(--font-head);
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 2px;
+}
+.provide-item p {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0;
+}
+.collage {
+  position: relative;
+  padding-bottom: 80px;
+}
+.collage-main {
+  width: 84%;
+  height: 520px;
+  margin-left: auto;
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+}
+.collage-inset {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  height: 240px;
+  border-radius: 18px;
+  border: 6px solid #fff;
+  box-shadow: var(--shadow-lg);
+}
+.collage-tag {
+  position: absolute;
+  top: 28px;
+  left: 2%;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-text);
+  font-size: 0.86rem;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+}
+.collage-tag svg {
+  width: 18px;
+  height: 18px;
+}
+.story-media {
+  position: relative;
+  padding: 0 22px 22px 0;
+}
+.story-media::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  height: 60%;
+  border-radius: 24px;
+  background: var(--navy);
+}
+.story-media img {
+  position: relative;
+  border-radius: 22px;
+  aspect-ratio: 4 / 3.4;
+  box-shadow: var(--shadow);
+}
+.team-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 26px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition:
+    var(--t-reveal),
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow);
+}
+.team-card h3 {
+  font-family: var(--font-head);
+  font-size: 1.08rem;
+  font-weight: 800;
+}
+.team-card .role {
+  display: inline-block;
+  margin: 8px 0 12px;
+  padding: 3px 10px;
+  border-radius: 6px;
+  background: var(--accent-soft);
+  color: var(--accent-text);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.team-card p {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
