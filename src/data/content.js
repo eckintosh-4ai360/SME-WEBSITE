@@ -191,6 +191,14 @@ export const missionVision = [
   },
 ];
 
+// Replace initials with real headshots by adding `photo: "<key>"` once you have them.
+export const team = [
+  { initials: "KA", name: "Kwame Asante", role: "Managing Director", text: "Over 15 years in mining operations and safety leadership across West Africa.", tone: "yellow" },
+  { initials: "AM", name: "Ama Mensimah", role: "Head of Operations", text: "Leads project delivery and on-site system implementation for all client sites.", tone: "navy" },
+  { initials: "DO", name: "Daniel Owusu", role: "Safety Systems Engineer", text: "Designs and maintains our RFID, GPS and analytics monitoring infrastructure.", tone: "navy" },
+  { initials: "EA", name: "Efua Amoah", role: "Compliance Lead", text: "Ensures every deployment meets mining regulations and audit requirements.", tone: "navy" },
+];
+
 export const testimonials = {
   home: [
     {
