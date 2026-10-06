@@ -166,5 +166,19 @@
       "photographer": "Harrun Muhammad",
       "url": "https://www.pexels.com/photo/construction-workers-in-safety-gear-at-building-site-32467382/"
     }
+  },
+  "mining-engineer": {
+    "alt": "Mining engineer in a red hard hat and work coveralls on site",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoYABAAPu1kqk2ppaQiMAgBMB2JYgCsMoABuBlSAjf0cXikIADL80zBsRV00XhtGPoct7tK45l0xqcPHLdz7yvG/EDuV0q1lrQC5n/zi+cqOg0Ybo/TXYaSD9rIIyoAAAA=",
+    "credit": {
+      "photographer": "Safi Erneste",
+      "url": "https://www.pexels.com/photo/mining-engineer-on-site-with-safety-gear-35082119/"
+    }
   }
 }
