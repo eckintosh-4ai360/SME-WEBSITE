@@ -1,0 +1,16 @@
+{
+  "mine-portal": {
+    "alt": "Workers in hard hats and hi-vis vests at an underground mine portal with rail cars",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoYABAAPu1kq04ppaQiMAgBMB2JQBdgA9IBaG5igNg6rYKLQAD+wDMiNAtmbzpkpQr67ZgP5op+ZXnVE8pc+RARoi/nfrQnEZE21daWwmNNuN40axIAAA==",
+    "credit": {
+      "photographer": "Safi Erneste",
+      "url": "https://www.pexels.com/photo/entrance-to-trinity-mining-tunnel-22-with-rail-cars-35082153/"
+    }
+  }
+}
