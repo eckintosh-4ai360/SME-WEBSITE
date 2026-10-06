@@ -264,5 +264,19 @@
       "photographer": "Susanne Plank",
       "url": "https://www.pexels.com/photo/man-hand-holding-access-card-over-reader-13657444/"
     }
+  },
+  "turnstiles": {
+    "alt": "Row of illuminated access-control turnstiles at night",
+    "width": 2400,
+    "height": 1602,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZwAAW+uXyjWE7KI70UNMAAD+9CNS7LeKYXkezkgkjL3iRjPZPDlj2lk6S/1vzKWXTG4Zwa+EiAAA",
+    "credit": {
+      "photographer": "Gonzalo Carlos Novillo Lapeyra",
+      "url": "https://www.pexels.com/photo/security-gates-on-an-airport-12608612/"
+    }
   }
 }
