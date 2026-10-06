@@ -277,3 +277,24 @@ main:focus {
   letter-spacing: -0.02em;
   margin-bottom: 16px;
 }
+
+/* Clean color emphasis for key words, including wrapped headings. */
+.accent {
+  color: var(--accent-text);
+}
+
+.lead {
+  color: var(--muted);
+  font-size: 1.07rem;
+  max-width: 640px;
+}
+
+.section-heading {
+  margin-bottom: 56px;
+}
+.section-heading.center .lead {
+  margin-inline: auto;
+}
+.section-foot {
+  margin-top: 46px;
+}
