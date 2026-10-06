@@ -40,5 +40,19 @@
       "photographer": "Manuel Garcia",
       "url": "https://www.pexels.com/photo/engineer-in-a-modern-underground-mine-tunnel-32594486/"
     }
+  },
+  "tunnel-walk": {
+    "alt": "Worker in a yellow hard hat walking through a steel-supported underground tunnel",
+    "width": 2400,
+    "height": 3600,
+    "widths": {
+      "800": 533,
+      "1600": 733
+    },
+    "placeholder": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAQBgCdASoYACQAPu1gp04ppSMiMBqqqTAdiUAYVm0YRdDWgPNyNAWTBfsVFjlY/h3HbEn6ZPcnL0AA/u6OUDWlJKoJp48Bdm1cRV6OBHv+fz5HxIEVO/xLJW35wySJPVZ8W8AAl/ubUFPtadKueVLa3xEgIE2jzikjxn+r870lru0AvyWW4XzF6+8lqrAaZQAAAA==",
+    "credit": {
+      "photographer": "Connor Kelley",
+      "url": "https://www.pexels.com/photo/woman-wearing-hard-hat-inside-a-tunnel-5089723/"
+    }
   }
 }
