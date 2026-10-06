@@ -22,6 +22,30 @@ export const stats = [
   { value: 99.9, decimals: 1, suffix: "%", label: "Safety Record" },
 ];
 
+// Home — the check-in story, told in four photos
+export const howItWorks = [
+  {
+    photo: "helmet-rack",
+    title: "Tag every worker",
+    text: "Each worker is registered with an RFID badge linked to their role, certifications and PPE.",
+  },
+  {
+    photo: "card-reader",
+    title: "Tap in at the gate",
+    text: "Readers at every pit gate verify the badge and log the entry in under a second. Unknown badges are flagged.",
+  },
+  {
+    photo: "control-room",
+    title: "Watch it live, 24/7",
+    text: "Supervisors see who is underground, where and for how long — on one live dashboard.",
+  },
+  {
+    photo: "tunnel-light",
+    title: "Close out every shift",
+    text: "At shift end the system confirms everyone is out. Anyone missing triggers an immediate alert.",
+  },
+];
+
 export const services = [
   {
     id: "safe-entry-exit",
