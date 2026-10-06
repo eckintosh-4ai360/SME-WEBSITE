@@ -523,6 +523,29 @@
   padding-top: 24px;
 }
 
+/* ---------- Split section (home) ---------- */
+.mini-feats {
+  margin-top: 28px;
+  display: grid;
+  gap: 18px;
+}
+.mini-feat {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+.mini-feat h3 {
+  font-family: var(--font-head);
+  font-size: 1.02rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+.mini-feat p {
+  font-size: 0.92rem;
+  color: var(--muted);
+  margin: 0;
+}
+
 /* ---------- Testimonials ---------- */
 .quote-card {
   background: #fff;
