@@ -1906,3 +1906,18 @@
     bottom: 82px;
   }
 }
+
+@media (max-width: 380px) {
+  .logo {
+    gap: 10px;
+  }
+  .logo-mark {
+    height: 44px;
+  }
+  .logo-text b {
+    font-size: 1.02rem;
+  }
+  .logo-text span {
+    letter-spacing: 0.14em;
+  }
+}
