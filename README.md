@@ -18,3 +18,24 @@ npm run dev        # local site at http://localhost:5173 (opens your browser)
 | `npm run build` | Production build into `dist/` |
 | `npm run preview` | Serve the production build at http://localhost:4173 |
 | `npm run add-photo -- <file> <key> "<alt text>"` | Add or replace a photo (see below) |
+
+## Where things live
+
+```
+src/
+  data/
+    site.js        ← phone, email, address, hours, social links, menu
+    content.js     ← services, FAQs, team, values, clients, testimonials, stats
+    gallery.js     ← gallery photos, captions and categories
+    photos.json    ← every photo's alt text, sizes and credit (managed by add-photo)
+  pages/           ← one file per page (Home, About, Services, Clients, Gallery, Contact…)
+  components/      ← shared pieces: header, footer, photo, lightbox, contact form…
+  styles/          ← global.css (colours, buttons, cards) and sections.css (page sections)
+  assets/photos/   ← optimised WebP photos (800px and 1600px versions)
+public/            ← favicon, social-share image, hosting redirects
+_legacy/           ← the previous static HTML site, kept for reference — safe to delete
+```
+
+**Most edits only touch `src/data/`.** For example, to change the phone number everywhere, edit `phone`
+and `phoneDisplay` in `src/data/site.js`. To show social icons in the footer, paste your profile URLs
+into `socials` in the same file.
