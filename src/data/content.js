@@ -249,6 +249,13 @@ export const clients = [
   },
 ];
 
+export const clientStats = [
+  { value: 3, label: "Active Sites" },
+  { value: 10000, suffix: "+", label: "Workers Monitored" },
+  { text: "24/7", label: "Real-Time Monitoring" },
+  { value: 100, suffix: "%", label: "Safety Compliance" },
+];
+
 export const testimonials = {
   home: [
     {
