@@ -306,5 +306,19 @@
       "photographer": "Kindel Media",
       "url": "https://www.pexels.com/photo/woman-engineer-writing-down-on-paper-8488034/"
     }
+  },
+  "radio-check": {
+    "alt": "Site supervisor in a white hard hat speaking into a two-way radio",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAwCdASoYABAAPu1iqk2ppaQiMAgBMB2JQBWABDj1QRjp71TQAAD+8dtee6/jtKSJ8ZHHxqmV1YrH5t/OuUjJrrBsHzaAAAA=",
+    "credit": {
+      "photographer": "Anamul Rezwan",
+      "url": "https://www.pexels.com/photo/man-wearing-white-hard-hat-holding-2-way-radio-1078879/"
+    }
   }
 }
