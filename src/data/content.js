@@ -163,6 +163,13 @@ export const visibilityFeatures = [
   },
 ];
 
+export const process = [
+  { title: "Consultation", text: "An initial assessment of your site and a clear understanding of your needs." },
+  { title: "Analysis", text: "A comprehensive evaluation and risk assessment of your operations." },
+  { title: "Implementation", text: "Deploying tailored solutions and protocols across your mine." },
+  { title: "Support", text: "Ongoing monitoring and continuous improvement of your systems." },
+];
+
 export const values = [
   { icon: ShieldCheck, tone: "yellow", title: "Safety First", text: "Unwavering commitment to the highest safety standards in every operation." },
   { icon: Lock, tone: "yellow", title: "Integrity", text: "Transparent, honest and ethical practices in all our operations." },
