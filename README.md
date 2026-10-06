@@ -86,3 +86,11 @@ VITE_CONTACT_ENDPOINT=https://formspree.io/f/your-form-id
 ```
 
 Rebuild after changing it.
+
+## Deploying
+
+Run `npm run build` and upload the `dist/` folder to any static host.
+
+The site uses clean URLs (`/about`, `/services`…), so the host must send unknown paths to `index.html`.
+This is already configured for **Netlify** and **Cloudflare Pages** (`public/_redirects`) and **Vercel**
+(`vercel.json`). Old links such as `about.html` redirect to the new pages automatically.
