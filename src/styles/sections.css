@@ -1233,3 +1233,76 @@
   opacity: 1;
   transform: none;
 }
+
+/* ---------- Lightbox ---------- */
+.lightbox {
+  margin: auto;
+  max-width: none;
+  max-height: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  overflow: visible;
+  color: #fff;
+}
+.lightbox::backdrop {
+  background: rgba(1, 20, 40, 0.94);
+  backdrop-filter: blur(6px);
+}
+.lightbox :focus-visible {
+  outline-color: var(--yellow);
+}
+.lb-figure .photo {
+  width: auto;
+  height: auto;
+  max-width: min(1200px, 92vw);
+  max-height: 78vh;
+  border-radius: 14px;
+  object-fit: contain;
+}
+.lb-figure figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 14px 4px 0;
+}
+.lb-figure figcaption b {
+  font-family: var(--font-head);
+}
+.lb-figure figcaption span {
+  color: var(--on-dark-muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.lb-btn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: background 0.2s ease;
+}
+.lb-btn:hover {
+  background: var(--yellow);
+  color: var(--navy);
+}
+.lb-close {
+  top: 20px;
+  right: 20px;
+}
+.lb-prev,
+.lb-next {
+  top: 50%;
+  translate: 0 -50%;
+}
+.lb-prev {
+  left: 20px;
+}
+.lb-next {
+  right: 20px;
+}
