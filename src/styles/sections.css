@@ -1611,3 +1611,19 @@
   justify-content: center;
   margin-top: 30px;
 }
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+@media (max-width: 1140px) {
+  .main-nav a {
+    padding: 10px 11px;
+  }
+  .main-nav a.active::after {
+    left: 11px;
+    right: 11px;
+  }
+  .topbar-item.email {
+    display: none;
+  }
+}
