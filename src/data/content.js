@@ -84,3 +84,58 @@ export const services = [
     points: ["24/7 hotline", "Rapid response", "Remote support", "On-site assistance"],
   },
 ];
+
+export const testimonials = {
+  home: [
+    {
+      quote:
+        "Since installing the SME system, shift close-outs take minutes instead of hours. We always know exactly who is underground and who has safely exited.",
+      name: "Enoch Adjei",
+      role: "Mine Operations Manager, Western Region",
+      initials: "EA",
+      tone: "yellow",
+    },
+    {
+      quote:
+        "The analytics dashboard gives our safety committee everything they need — incident reports, compliance rates and trends in one clean view.",
+      name: "Sarah Boateng",
+      role: "HSE Coordinator, Ashanti Region",
+      initials: "SB",
+      tone: "navy",
+    },
+    {
+      quote:
+        "Their team trained our entire workforce in two weeks and the RFID check-in works flawlessly across all our pit gates, day and night.",
+      name: "Kofi Twum",
+      role: "Plant Superintendent, Tarkwa",
+      initials: "KT",
+      tone: "navy",
+    },
+  ],
+  clients: [
+    {
+      quote:
+        "The entry and exit system removed all guesswork from our shift management. Every worker is accounted for within seconds of the siren.",
+      name: "Enoch Adjei",
+      role: "Mine Operations Manager",
+      initials: "EA",
+      tone: "yellow",
+    },
+    {
+      quote:
+        "Their compliance audits have kept us ahead of every inspection. The team is professional, responsive and genuinely committed to safety.",
+      name: "Sarah Boateng",
+      role: "HSE Coordinator",
+      initials: "SB",
+      tone: "navy",
+    },
+    {
+      quote:
+        "Implementation was fast and the training was excellent. Our workers took to the RFID system immediately, and alerts reach us instantly.",
+      name: "Kofi Twum",
+      role: "Plant Superintendent",
+      initials: "KT",
+      tone: "navy",
+    },
+  ],
+};
