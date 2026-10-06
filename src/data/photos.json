@@ -180,5 +180,19 @@
       "photographer": "Safi Erneste",
       "url": "https://www.pexels.com/photo/mining-engineer-on-site-with-safety-gear-35082119/"
     }
+  },
+  "engineer-ppe": {
+    "alt": "Smiling engineer wearing a hi-vis vest, ear defenders and gloves",
+    "width": 2400,
+    "height": 3200,
+    "widths": {
+      "800": 600,
+      "1600": 825
+    },
+    "placeholder": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAACQBgCdASoYACAAPuVgo02pJaMiMAwBIByJbACdMoPKqk46zGAAULHcjqy4NVn1HAOsI1G1P17DWwqWdZZIAP0htHr5GqnEui8Td5ncOf5NI167kyNF3vx4sQvC0Hr6gfIPrtExlxv2PMYDBqcQUlh1bItlZsQVszMVeMgfJDSpQQd8eex2lEGoBuL18PhCq9GPGco1/Buz9ZkX/ufzVRyHfPB+0RBa6kY45tUOQhhQAAAA",
+    "credit": {
+      "photographer": "Kindel Media",
+      "url": "https://www.pexels.com/photo/handywoman-in-reflective-vest-and-white-hardhat-8487341/"
+    }
   }
 }
