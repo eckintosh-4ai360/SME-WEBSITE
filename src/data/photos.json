@@ -194,5 +194,19 @@
       "photographer": "Kindel Media",
       "url": "https://www.pexels.com/photo/handywoman-in-reflective-vest-and-white-hardhat-8487341/"
     }
+  },
+  "safety-briefing": {
+    "alt": "Supervisor in coveralls explaining safety procedures inside a plant",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoYABAAPu1Ct1apoqakGAEwHYlsALsygAox2CSlIN+/IgAA/vnzKohOOxWFyNFJ3aeidHdCEg9jicqQeQMlRavnGNXGjXJbMrgaO0Z+Ysms/nUzgAA=",
+    "credit": {
+      "photographer": "Safi Erneste",
+      "url": "https://www.pexels.com/photo/industrial-worker-in-safety-gear-at-factory-35082106/"
+    }
   }
 }
