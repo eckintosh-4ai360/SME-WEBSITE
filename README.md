@@ -53,3 +53,22 @@ into `socials` in the same file.
   `public/logo.png` is the full logo with the wordmark. The favicon, app icon and social-share image
   (`public/og-image.jpg`) are all made from it.
 - **Fonts:** Montserrat for headings (matching the logo's wordmark) and Inter for body text.
+
+## Photos
+
+The site uses licensed stock photography from [Pexels](https://www.pexels.com/license/) (free for
+commercial use; photographers are credited at `/credits`). These stand in for your own photos — real
+pictures of your team, gates and client sites will always communicate better.
+
+To swap one in, pick the key of the photo you want to replace (they're listed in
+`src/data/photos.json`, e.g. `control-room`, `crew-lineup`, `mine-portal`) and run:
+
+```bash
+npm run add-photo -- "C:\path\to\your-photo.jpg" control-room "Our Tarkwa control room at night"
+```
+
+That resizes and compresses the photo, and it immediately replaces the old one everywhere it's used.
+Use a new key to add an extra photo, then reference it from `src/data/gallery.js` (or any page).
+The alt text is read aloud by screen readers — describe what's in the picture.
+
+Team members and testimonials use initials avatars. Please only add headshots of the real people named.
