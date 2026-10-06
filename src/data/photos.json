@@ -110,5 +110,19 @@
       "photographer": "Safi Erneste",
       "url": "https://www.pexels.com/photo/mining-site-with-workers-and-rail-transport-35082155/"
     }
+  },
+  "ore-processing": {
+    "alt": "Plant operator in overalls and helmet working at an ore shaking table",
+    "width": 2400,
+    "height": 1600,
+    "widths": {
+      "800": 800,
+      "1600": 1600
+    },
+    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoYABAAPu1Ct1apoqakGAEwHYlAF2AEOjE3IjsBCloslQAA+6N3Vb25vq1bs3CU47Nxw74s7Lc8Q/e4Cd48ii3cxf1dzv52aAcrdDPuIrVMQMh3cn9YNNZaAAA=",
+    "credit": {
+      "photographer": "Safi Erneste",
+      "url": "https://www.pexels.com/photo/worker-operating-shaking-table-in-industrial-setup-35082130/"
+    }
   }
 }
